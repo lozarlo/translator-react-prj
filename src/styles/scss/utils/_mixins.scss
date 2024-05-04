@@ -1,0 +1,6 @@
+@mixin flex-j-center-a-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

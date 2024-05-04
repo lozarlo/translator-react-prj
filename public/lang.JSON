@@ -1,0 +1,24 @@
+{
+  "lang": [
+    {
+      "name": "italian",
+      "flag": "🇮🇹",
+      "dataLang": "it"
+    },
+    {
+      "name": "english",
+      "flag": "🇬🇧",
+      "dataLang": "en"
+    },
+    {
+      "name": "french",
+      "flag": "🇫🇷",
+      "dataLang": "fr"
+    },
+    {
+      "name": "spanish",
+      "flag": "🇪🇸",
+      "dataLang": "es"
+    }
+  ]
+}

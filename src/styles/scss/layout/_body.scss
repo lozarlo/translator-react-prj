@@ -1,0 +1,8 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+body {
+  overflow-x: hidden;
+  min-width: 280px;
+  background-color: $primary-color-yellow;
+}
