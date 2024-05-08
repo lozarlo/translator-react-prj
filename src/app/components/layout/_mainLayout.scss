@@ -1,0 +1,21 @@
+.app-container {
+  z-index: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin: 20px auto;
+  gap: 10px;
+  @media screen and (min-width: 480px) {
+    width: 400px;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}

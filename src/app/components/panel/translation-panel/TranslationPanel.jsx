@@ -1,12 +1,12 @@
 export const TranslationPanel = () => {
   return (
-    <div class = "panel translation">
-    <div class = "translation-result">
-    <p   class = "translated-text text-color">Waiting. . .</p>
+    <div className="panel translation">
+      <div className="translation-result">
+        <p className="translated-text text-color">Waiting. . .</p>
       </div>
-      <span   class = "lang-flag absolute"></span>
-      <button class = "btn favorite-btn absolute">★</button>
-      <button class = "btn reset-translation-button absolute">X</button>
+      <span className="lang-flag absolute"></span>
+      <button className="btn favorite-btn absolute">★</button>
+      <button className="btn reset-translation-button absolute">X</button>
     </div>
   );
 };

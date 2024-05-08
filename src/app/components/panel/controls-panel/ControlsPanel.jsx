@@ -1,18 +1,27 @@
 export const ControlsPanel = () => {
+
+async function retriveButton() {
+const request = "../../../../../public/lang.JSON";
+const response = await fetch(request);
+const jsonData = await response.json();
+console.log(jsonData)
+}
+
   return (
-    <div class = "panel controls">
-    <div class = "input-wrapper">
+    <div className="panel controls">
+      <div className="input-wrapper">
         <input
-          class       = "input-area"
-          type        = "text"
-          name        = "input"
-          placeholder = "inserisci il testo da tradurre"
+          className="input-area"
+          type="text"
+          name="input"
+          placeholder="inserisci il testo da tradurre"
         />
-        <button class = "btn erase-input-button">X</button>
+        <button className="btn erase-input-button">X</button>
       </div>
-      <div class = "lang-btn-wrapper">
-        {/* <button class="btn drop-down-button">Choose Languages</button> */}
+      <div className="lang-btn-wrapper">
+        {/* <button className="btn drop-down-button">Choose Languages</button> */}
       </div>
-      {/* <button class="btn show-favorite-btn absolute">➥</button> */}
-    </div>)
+      {/* <button className="btn show-favorite-btn absolute">➥</button> */}
+    </div>
+  );
 };

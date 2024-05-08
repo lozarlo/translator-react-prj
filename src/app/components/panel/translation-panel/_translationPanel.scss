@@ -1,0 +1,35 @@
+.translation {
+  position: relative;
+  background-color: white;
+}
+
+.lang-flag {
+  top: 0;
+  left: 0;
+  padding: 6px 8px;
+  border-radius: 10px;
+  background-color: rgb(229, 229, 229);
+}
+
+.translation-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  @media screen and (min-width: 480px) {
+    min-height: 120px;
+  }
+}
+
+.translated-text {
+  font-size: 18px;
+  margin: 0 auto;
+  color: rgb(228, 218, 218);
+  @media screen and (min-width: 480px) {
+    font-size: 24px;
+  }
+}
+
+.loading-screen {
+  max-width: 100px;
+}

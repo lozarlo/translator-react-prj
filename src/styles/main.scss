@@ -1,12 +1,31 @@
+//Utils
 @import "./scss/utils/functions";
 @import "./scss/utils/mixins";
 @import "./scss/utils/variables";
 
+//Resets
 @import "./scss/base/elements";
 @import "./scss/base/reset";
 @import "./scss/base/typography";
 
+//Common Components
+@import "./scss/components/absolute-element";
+@import "./scss/components/button";
 @import "./scss/components/icon";
 @import "./scss/components/img";
+@import "./scss/components/panel";
 
+//Layout
 @import "./scss/layout/body";
+
+//Base animation
+@import "./scss/animation/hover-animation";
+
+//Components
+@import "../app/components/panel/header-panel/headerPanel";
+@import "../app/components/panel/translation-panel/translationPanel";
+@import "../app/components/panel/controls-panel/controlsPanel";
+@import "../app/components/layout/mainLayout";
+
+//Pages
+@import "../app/pages/home";

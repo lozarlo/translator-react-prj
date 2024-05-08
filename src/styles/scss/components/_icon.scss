@@ -1,2 +1,20 @@
 @import "../utils/variables";
 @import "../utils/mixins";
+
+.icon {
+  display: flex;
+  width: 40px;
+  top: 0;
+  right: 0;
+  margin: -10px -14px 0 0;
+  transform: rotate(10deg);
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+
+  @media screen and (min-width: 480px) {
+    width: 50px;
+    top: unset;
+    right: 40px;
+    margin: 0;
+    transform: none;
+  }
+}

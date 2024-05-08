@@ -1,0 +1,36 @@
+.banner {
+  /* display: none; */
+  /* animazione */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 40px;
+  min-width: auto;
+  max-width: 160px;
+  max-height: 40px;
+  overflow-y: scroll;
+  padding: 4px;
+  border-radius: 10px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.7972802593659942) 0%,
+    rgba(253, 29, 29, 0.8030439481268011) 56%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  
+  p {
+    font-size: 12px;
+    text-align: center;
+    word-break: break-all;
+  }
+  @media screen and (min-width: 480px) {
+    width: auto;
+    min-width: auto;
+    max-width: 300px;
+    max-height: 80px;
+    p {
+      font-size: 14px;
+    }
+  }
+}
