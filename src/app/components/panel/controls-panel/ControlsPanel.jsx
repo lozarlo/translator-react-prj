@@ -1,11 +1,15 @@
-export const ControlsPanel = () => {
+import React, { useEffect, useState } from 'react';
 
-async function retriveButton() {
-const request = "../../../../../public/lang.JSON";
-const response = await fetch(request);
-const jsonData = await response.json();
-console.log(jsonData)
-}
+export const ControlsPanel = () => {
+  const [data, setData] = useState();
+
+useEffect(() => {
+  fetch('/lang.json')
+    .then(response => response.json())
+    .then(data => setData(data));
+    console.log(data)
+}, []);
+
 
   return (
     <div className="panel controls">
