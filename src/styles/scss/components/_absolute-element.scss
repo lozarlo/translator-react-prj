@@ -1,5 +1,4 @@
 .absolute {
-  display: none;
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -11,4 +10,12 @@
     width: 32px;
     height: 32px;
   }
+}
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display: flex;
 }
